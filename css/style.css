@@ -6,30 +6,23 @@
 
 body {
     background: linear-gradient(to right, #f25022, #7fba00, #00a4ef, #ffb900);
-    height: 100%;
-}
-
-.parent {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 .box {
-    width: 360px;
-    height: 360px;
+    position: absolute;
+    padding: 20px;
+    width: 355px;
+    height: 355px;
     background-color: rgba(0,0,0,.25);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .logo {
     position: absolute;
-    top: 385px;
-    left: 875px; 
-    transform: translate(-50%, -50%);
     width: 150px;
     height: 150px;
     background-color: #f25022;
