@@ -1,0 +1,13 @@
+.div-1 {
+    background-color: tomato;
+    margin-bottom: 20px;
+}
+
+.div-2 {
+    background-color: steelblue;
+}
+
+.div-1, .div-2 {
+    height: 200px;
+    width: 200px;
+}
