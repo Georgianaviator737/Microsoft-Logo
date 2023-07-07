@@ -30,4 +30,36 @@ body {
         165px 0 0 0 #7fba00, 
         0 165px 0 0 #00a4ef, 
         165px 165px 0 0 #ffb900;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+
+@keyframes colorchange {
+    0% {
+        background-color: #7fba00;
+        box-shadow: 
+        165px 0 0 0 #ffb900, 
+        0 165px 0 0 #00a4ef, 
+        165px 165px 0 0 #f25022;
+    }
+
+    50% {
+        background-color: #00a4ef;
+        box-shadow: 
+        165px 0 0 0 #7fba00, 
+        0 165px 0 0 #ffb900, 
+        165px 165px 0 0 #f25022;
+    }
+
+    100% {
+        background-color: #00a4ef;
+        box-shadow: 
+        165px 0 0 0 #7fba00, 
+        0 165px 0 0 #f25022, 
+        165px 165px 0 0 #ffb900;
+    }
+}
+    
